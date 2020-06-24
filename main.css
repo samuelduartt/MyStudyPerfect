@@ -1,0 +1,84 @@
+
+:root{
+    --title-color: #000000;
+    
+
+}
+html{
+    font-family:  serif
+
+}
+body{
+    background:url("../assets/home-background10.jpg") ;
+    background-attachment: fixed;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    
+    
+    
+};
+#page-home{
+    margin-left: 50px;
+}
+#page-home h1{
+    margin: 50px 400px auto ;
+}
+#page-home form{
+    display: inline-block;
+    margin: 5px 485px auto;
+    align-items: center;
+}
+#page-home header{
+    display: flex;
+    justify-content: space-between;
+}
+#page-home a{
+   margin-left: 300px;
+}
+#page-home small{
+    -webkit-appearance: push-button;
+}
+
+
+#page-home header {
+
+    margin-top: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#page-home header a{
+    display: flex;
+
+    color: var(--title-col);
+    font-weight: 700;
+    margin-left: 1050px;
+
+}
+
+#page-home header a span{
+    margin-right: 5px;
+    display: flex;
+
+    background-image: url("../assets/log-in.svg");
+
+    width: 20px;
+    height: 20px;
+   
+}
+#page-home header img {
+    mix-blend-mode: multiply;
+}
+#page-home p{
+    margin-left: 50px;
+}
+#page-home1 a{
+    display: flex;
+
+    color: var(--title-col);
+    font-weight: 700;
+    margin-left: 1278px;
+    margin-top: -40px;
+    font-size: 12px;
+
+}

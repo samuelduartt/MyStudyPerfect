@@ -1,0 +1,29 @@
+
+:root{
+    --title-color: #000000;
+    
+
+}
+html{
+    font-family:  serif
+
+}
+
+#page-home{
+    
+    background:url("../assets/home-background5.jpg") ;
+    background-attachment: fixed;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: #000000;
+}
+
+#page-home main h1{
+    margin: 10px 500px auto;
+    font-variant-caps: small-caps;
+
+}
+#page-home main form{
+    margin: 1px 500px auto;
+    
+}
